@@ -1,0 +1,56 @@
+
+/* #bloco_menu li{
+    border: 10;
+    border-color: #000;
+} */
+
+#bloco_menu li a {
+  display: block;
+  color: #000;
+  padding: 10px 40px;
+  text-decoration: none; 
+  background-color: #caec09;
+}
+
+/* Muda cor com o mouse em cima */
+#bloco_menu li a:hover {
+  background-color: #680808;
+  color: rgb(197, 209, 144);
+}
+#bloco_menu ul {
+    display: flex;
+    justify-content: flex-start; 
+    list-style-type: none;
+    margin: 10;
+    padding: 10;
+}
+#bloco_inicial {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #cedcf5; 
+}
+#bloco_foto {
+    display: flex;
+    align-self: flex-start;
+    align-items: center;
+    flex-direction: column;
+    background-color: #c46053; 
+}
+#bloco_conteudo {
+    display: flex;
+    align-self: flex-start;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+}
+#bloco_conteudo ul {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+}
+.separador {    
+  border-right: 10px solid #042a50;
+}
