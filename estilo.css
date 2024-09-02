@@ -40,9 +40,11 @@
 #bloco_conteudo {
     display: flex;
     align-self: flex-start;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
     align-content: center;
+    padding-left: 5%;
+    padding-top: 20px;
 }
 #bloco_conteudo ul {
     display: flex;
@@ -53,4 +55,22 @@
 }
 .separador {    
   border-right: 10px solid #042a50;
+}
+.bloco_contato {    
+    display: flex; 
+    border: 3px dashed #042a50; 
+    width: 90%;  
+    margin: 10px 0;
+    padding: 5px 0;
+}
+.bloco_contato p {
+    width: 10%;
+}
+.bloco_contato input, textarea {
+    position: relative;
+    left: 80px;
+    width: 70%;
+}
+textarea {
+    height: 300px;
 }
